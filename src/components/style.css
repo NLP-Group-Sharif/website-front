@@ -414,3 +414,276 @@ div.absolute-2 {
 .padding-top {
     padding-top: 30px;
 }
+
+.zoom:hover {
+    transform: scale(1.15);
+}
+
+.zoom2:hover {
+    transform: scale(1.05);
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  .typed-out{
+    overflow: hidden;
+    border-right: .15em solid white;
+    white-space: nowrap;
+    /* font-size: 1.6rem; */
+    width: 0;
+    animation: typing 3s forwards;
+}
+
+
+/*
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
+@font-face {
+    font-family: 'Ebtekar';
+    src: url('../../fonts/ebtekar.ttf') format('truetype');
+    /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+
+@font-face {
+    font-family: 'IranSans';
+    src: url('../../fonts/iran_sans.ttf') format('truetype');
+    /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+
+@font-face {
+    font-family: 'Sadgan';
+    src: url('../../fonts/sadgan_medium.ttf') format('truetype');
+    /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+
+.iranSans {
+    font-family: "IranSans";
+}
+
+.ebtekar {
+    font-family: "Ebtekar";
+}
+
+.sadgan {
+    font-family: "Sadgan";
+}
+
+.container-fa {
+    direction: ltr;
+    float: left;
+    font-family: "Sadgan";
+}
+
+.title-box-fa {
+    text-align: right;
+    font-family: "Ebtekar";
+    font-size: 65px;
+}
+
+.grid-container-fa {
+    text-align: right;
+    font-family: "Sadgan";
+    font-size: 30px;
+}
+
+.works-title-container-margin-fa {
+    margin-right: 8%;  
+}
+
+.title-box-5-fa {
+    text-align: right;
+    font-family: 'Sadgan';
+}
+
+.works-title-container-fa {
+    margin-right: 8%;  
+    direction: ltr;
+    margin-left: 1480px;
+}
+
+.title-box-2-fa {
+    text-align: center;
+    font-family: 'Ebtekar';
+}
+
+.left-aligned-fa {
+    text-align: center;
+    font-family: 'IranSans';
+}
+
+.playground-fa {
+    text-align: right;
+}
+
+.play-background-fa {
+    margin-left: auto; 
+    margin-right: 0;
+    font-family: 'Sadgan';
+}
+
+.line-fa {
+    margin-right: 20%; /* 500px; */
+    width: 50%;
+}
+
+.title-box-4-fa {
+    font-family: 'Sadgan';
+}
+
+.model-box-fa {
+    font-family: 'IranSans';
+}
+
+.mic-button-fa {
+}
+
+.mic-box-fa {
+    width: 100%;
+    text-align: center;
+}
+
+.right-aligned-fa {
+    text-align: left;
+    font-family: 'IranSans';
+}
+
+.title-box-6-fa {
+    font-family: 'Sadgan';
+}
+
+.left-aligned-fa {
+    text-align: right;
+    font-family: 'IranSans';
+}
+
+.left-aligned2-fa {
+    text-align: right;
+    font-family: 'IranSans';
+}
+
+.label-box-fa {
+    font-family: 'IranSans';
+}
+
+.works-title-container-fa {
+    /* border-style: solid; */
+}
+
+.title-container {
+    /* border-style: solid; */
+}
+
+/*
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
+
+.display-none {
+    display: none;
+}
+
+@media only screen and (max-width: 1320px) {
+
+    #text-logo {
+        display: block;
+    }
+    
+    #image-logo {
+        display: block;
+    }
+    
+    
+    .title-container {
+        display: flex;
+        flex-direction: column; 
+        text-align: center;
+    }
+    
+    #image-logo {
+        order: 2;
+    }
+    #text-logo {
+        order: 1;
+        text-align: center;
+    }
+    #class-logo {
+        order: 3;
+    }
+    /* #navbar-logo {
+        display: none;
+    } */
+    .title-box {
+        font-weight: 200;
+        font-size: 40px;
+        line-height: 62.96px;
+    }
+    #text-logo-p {
+        display: none;
+    }
+    
+    .colored-title {
+        display: inline;
+    }
+    
+    .title-box-fa {
+        font-family: "Sadgan";
+    }
+    
+    .left-aligned {
+        text-align: center;
+    }
+    
+    .demo-container-1 {
+        text-align: center;
+    }
+    
+    .demo-container-2 {
+        text-align: center;
+    }
+    
+    .demo-1 {
+        margin-right: 10%;
+    }
+    
+    .demo-2 {
+        margin-left: 15%;
+    }
+    
+    .demo-3 {
+        margin-right: 15%;
+    }
+    
+    .demo-button {
+        display: none;
+    }
+    
+    .model-container {
+        width: 95%;
+    }
+}

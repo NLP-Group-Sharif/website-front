@@ -73,16 +73,16 @@ function Navbarr() {
 <div className="absolute"><div className='lang-container'><button className="button-submit">En</button> <div className='white-text'>|</div> <button className="button-submit">Fa</button></div></div>
 <div className="header-container">
   <div className="title-container">
-    <h1 className="title-box">We Create <br></br> <div className="colored-title"> Persian <br></br> NLP </div> Solutions</h1>
+    <h1 className="title-box">We Create<br></br> <div className="colored-title typed-out">Persian</div><div className="colored-title typed-out">NLP</div>Solutions</h1>
     <img src={logo} alt="logo" width="500" height="600"></img>
     <div className='grid-container'>
-    <div class="item1"><div><div>Text Processing</div><img src={textline} alt="textline" width="150"></img></div></div>
+    <div class="item1 zoom"><div><div>Text Processing</div><img src={textline} alt="textline" width="150"></img></div></div>
   <div class="item2"></div>
-  <div class="item3">Assistants</div>  
-  <div class="item4">Speech to Text</div>
+  <div class="item3 zoom">Assistants</div>  
+  <div class="item4 zoom">Speech to Text</div>
   <div class="item5"></div>
-  <div class="item6"><img src={message} alt="message" width="100" height="100"></img></div>
-  <div class="item7">Voice Verification</div>
+  <div class="item6 zoom"><img src={message} alt="message" width="100" height="100"></img></div>
+  <div class="item7 zoom">Voice Verification</div>
   <div class="item8"><img src={cir2} alt="circle" width="200" height="200"></img></div>  
   <div class="item9"></div>
   <div class="item10"></div>
@@ -90,12 +90,12 @@ function Navbarr() {
   <div class="item12"></div>
   <div class="item13"></div>
   <div class="item14"></div>
-  <div class="item15">Categorization</div>
+  <div class="item15 zoom">Categorization</div>
     </div>
   </div>
 </div>
 
-<div className='works-title-container works-title-container-margin'>
+<div className='works-title-container works-title-container-margin zoom2'>
 <h1 className="title-box-5">Our<br></br>Works</h1>
 </div>
 
@@ -130,7 +130,7 @@ for any persian video.</h4>
 </div>
 
 <div className="playground">
-<h1 className="title-box-5 play-background">Play</h1>
+<h1 className="title-box-5 play-background zoom2">Play</h1>
 <h4 className="left-aligned left-aligned-2">Tap the microphone and say something to turn it into text.</h4>
 <img src={line} alt="line" className="line"></img>
 
@@ -167,15 +167,15 @@ new hey.</div>
 </div>
 <div class="skew title-container-2">
 <div className="title-container">
-<div>
-<div className='works-title-container'><h1 className="title-box-5">Our<br></br>Customers</h1></div>
+<div> 
+<div className='works-title-container zoom2'><h1 className="title-box-5">Our<br></br>Customers</h1></div>
 <h4 className="left-aligned">You can be the next one!</h4>
 </div>
 <img src={brands} alt="brands" width="550"></img>
 </div>
 <div className="title-container">
 <div>
-<div className='works-title-container'><h1 className="title-box-5">About<br></br>Us</h1></div>
+<div className='works-title-container zoom2'><h1 className="title-box-5">About<br></br>Us</h1></div>
 <h4 className="left-aligned2">We are a young and ambitious team whose main 
 focus is to grow. Our members are mostly graduates
 from Sharif University of Technology. This team is led
@@ -191,7 +191,7 @@ at Sharif University of Technology too.</h4>
 <div className="">
 <img src={halfup} alt="logo" width="100%"></img>
 <div className="title-container title-container-3">
-<div className='works-title-container'><h1 className="title-box-5">Contact<br></br>Us</h1></div>
+<div className='works-title-container zoom2'><h1 className="title-box-5">Contact<br></br>Us</h1></div>
     <div>
     <h4 className="left-aligned2">Just put your email address here
  and we will contact you!</h4><br></br>
